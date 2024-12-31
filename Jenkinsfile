@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        NETLIFY_SITE_ID = 'PUT YOUR NETLIFY SITE ID HERE'
-        NETLIFY_AUTH_TOKEN = credentials('netlify-token')
+        NETLIFY_SITE_ID = 'bee0f7f6-0691-46e2-88d1-389f674b7b4a'
+        NETLIFY_AUTH_TOKEN = credentials('netify-token')
     }
 
     stages {
@@ -103,7 +103,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'PUT YOUR NETLIFY SITE URL HERE'
+                CI_ENVIRONMENT_URL = 'https://elegant-bonbon-ce83f8.netlify.app/'
             }
 
             steps {
