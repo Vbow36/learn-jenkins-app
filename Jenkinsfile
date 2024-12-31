@@ -103,7 +103,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://elegant-bonbon-ce83f8.netlify.app/'
+                CI_ENVIRONMENT_URL = 'https://elegant-bonbon-ce83f8.netlify.app'
             }
 
             steps {
